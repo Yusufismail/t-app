@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mytikhaf/static/css/main.49804bd3.chunk.css",
+    "main.js": "/mytikhaf/static/js/main.cc67fafc.chunk.js",
+    "main.js.map": "/mytikhaf/static/js/main.cc67fafc.chunk.js.map",
+    "runtime-main.js": "/mytikhaf/static/js/runtime-main.cc9d79b8.js",
+    "runtime-main.js.map": "/mytikhaf/static/js/runtime-main.cc9d79b8.js.map",
+    "static/js/2.ba8f3fdc.chunk.js": "/mytikhaf/static/js/2.ba8f3fdc.chunk.js",
+    "static/js/2.ba8f3fdc.chunk.js.map": "/mytikhaf/static/js/2.ba8f3fdc.chunk.js.map",
+    "static/js/3.bcc36f16.chunk.js": "/mytikhaf/static/js/3.bcc36f16.chunk.js",
+    "static/js/3.bcc36f16.chunk.js.map": "/mytikhaf/static/js/3.bcc36f16.chunk.js.map",
+    "index.html": "/mytikhaf/index.html",
+    "static/css/main.49804bd3.chunk.css.map": "/mytikhaf/static/css/main.49804bd3.chunk.css.map",
+    "static/js/2.ba8f3fdc.chunk.js.LICENSE.txt": "/mytikhaf/static/js/2.ba8f3fdc.chunk.js.LICENSE.txt",
+    "static/media/masjid.e0627146.jpg": "/mytikhaf/static/media/masjid.e0627146.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc9d79b8.js",
+    "static/js/2.ba8f3fdc.chunk.js",
+    "static/css/main.49804bd3.chunk.css",
+    "static/js/main.cc67fafc.chunk.js"
+  ]
+}

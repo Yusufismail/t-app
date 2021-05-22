@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  background: #616120;
+}
+header img{
+  width: 10%;
+}
+main{
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+main img{
+
+margin-left: auto;
+height: 100vh;
+}
+.content{
+
+  padding: 1em;
+  margin:4rem;
+  background: #616120;
+  display:flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px inset white;
+  flex-direction: row;
+}
+
+ h2{
+    text-decoration-color: white;
+    text-decoration-line: underline;
+    color:gold;
+    padding: 0.1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 2rem;
+    letter-spacing: 0.1rem;
+    text-decoration:none;
+    text-decoration-color: rgb(191, 192, 111);
+    
+    
+}
+
+ h4{
+   text-align: left;
+    margin-left: 4rem;
+    color:gold;
+    padding: 1rem;
+    font-weight: 140;
+    font-size: 1rem;
+    margin: 0rem;
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+form{
+  color: white;
+    padding: 1rem;
+    border-radius: 3rem;
+    background: #616120;
+    text-align: left;
+  
+    
+}
+
+button,input,.name, .dob{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 4px;
+    color: white;
+
+}
+
+label{
+    padding: 0.5rem;
+    font-weight: 50;
+    font-size: small;
+
+}
+select{
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+.submit{
+  margin-left: 5em;
+}
+  
+
+@media(min-width:320px){
+  main{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  h2{
+    
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .content{
+
+    padding: 0.5em;
+    margin:0.2rem;
+    background: #616120;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    box-shadow: 2px 2px 2px  2px inset white;
+    
+  }
+  form{
+   padding: 0;
+   margin: 0;
+   margin-bottom: 3em;
+   width: 70%;
+    
+}
+button,input,.name, .dob{
+  padding: 0.6rem 0.2rem;
+  border-radius: 10px;
+  margin: 0.4rem;
+  text-align: center;
+  
+  
+
+}
+h4{
+    
+  text-align: left;
+  padding:0;
+  font-weight: 200;
+  font-size: 0.9rem;
+  margin: 0.6rem;
+  margin-left: 1rem;
+  text-decoration:underline;
+  text-decoration-color: white;
+  width: 100vw;
+}
+
+.dob,.name{
+margin: 0.1rem;
+width: 50%;
+padding: 0.3rem 0.2rem;
+
+
+}
+main img{
+  width: 170%;
+  margin-right: 0.1em;
+  float: right;
+  margin-bottom: 2em;
+  height: 95%;
+  }
+  select{
+    border-radius: 1rem;
+    padding: 0,1rem;
+    width: 16%;
+    margin: 0.2rem;
+    
+  
+  }
+    
+i{
+  width: 13%;
+}
+.submit{
+  margin: 0.1rem;
+  padding: 0.2rem;
+  margin-left: 1.5rem;
+  
+}
+
+input{
+  margin: 0;
+}
+.dob{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+
+}
+}
+@media(min-width:480px){
+  main{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  h2{
+   
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  .content{
+
+    padding: 0.5em;
+    margin:0.2rem;
+    background: #616120;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    box-shadow: 2px 2px 2px  2px inset white;
+    
+  }
+  form{
+   padding: 1rem;
+   margin: 0;
+   margin-bottom: 2em;
+   width: 70%;
+    
+}
+button,input,.name, .dob{
+  padding: 0.6rem 0.2rem;
+  border-radius: 10px;
+  margin: 0.4rem;
+  text-align: center;
+  
+  
+
+}
+h4{
+    
+  text-align: left;
+  padding:0;
+  font-weight: 200;
+  font-size: 0.9rem;
+  margin: 0.6rem;
+  margin-left: 2.2rem;
+  text-decoration:underline;
+  text-decoration-color: white;
+  width: 100vw;
+}
+
+.dob,.name{
+margin: 0.1rem;
+width: 50%;
+padding: 0.3rem 0.2rem;
+
+
+}
+main img{
+  width: 150%;
+  margin-right: 0.1em;
+  float: right;
+  margin-bottom: 2em;
+  height: 95%;
+  }
+  select{
+    border-radius: 1rem;
+    padding: 0,1rem;
+    width: 16%;
+    margin: 0.2rem;
+  
+  }
+    
+i{
+  width: 13%;
+}
+.submit{
+  margin: 0.5rem;
+  padding: 0.2rem;
+}
+
+input{
+  margin: 0;
+}
+.dob{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+
+}
+}
+@media(min-width:600px){
+  main{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  h2{
+    
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  .content{
+
+    padding: 0.5em;
+    margin:0.2rem;
+    background: #616120;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    box-shadow: 2px 2px 2px  2px inset white;
+    
+  }
+  form{
+   padding: 2rem;
+   margin: 1.5rem;
+   margin-bottom: 2em;
+   width: 70%;
+    
+}
+button,input,.name, .dob{
+  padding: 0.6rem 0.2rem;
+  border-radius: 10px;
+  margin: 0.4rem;
+  text-align: center;
+  
+  
+
+}
+h4{
+    
+  text-align: left;
+  padding:0;
+  font-weight: 200;
+  font-size: 1rem;
+  margin: 0.6rem;
+  margin-left: 2.6rem;
+  text-decoration:underline;
+  text-decoration-color: white;
+  width: 100vw;
+}
+
+.dob,.name{
+margin: 0.1rem;
+width: 50%;
+padding: 0.3rem 0.2rem;
+
+
+}
+main img{
+  width: 230%;
+  margin-right: 0.1em;
+  float: right;
+  margin-bottom: 2em;
+  height: 95%;
+  }
+  select{
+    border-radius: 1rem;
+    padding: 0,1rem;
+    width: 16%;
+    margin: 0.2rem;
+  
+  }
+    
+i{
+  width: 13%;
+}
+.submit{
+  margin: 1rem;
+  padding: 0.2rem;
+  margin-left: 6.5em;
+}
+
+input{
+  margin: 0;
+}
+.dob{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+
+}
+}
+@media(min-width:800px){
+
+  main{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  main img{
+  
+  margin-left: auto;
+  height: 100%;
+  }
+  .content{
+  
+    padding: 1em;
+    margin:4rem;
+    background: #616120;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px inset white;
+    flex-direction: row;
+  }
+  
+   h2{
+     
+     
+     
+      padding: 0.1rem;
+      font-weight: 300;
+      font-size: 2rem;
+      margin: 2rem;
+      letter-spacing: 0.1rem;
+      text-decoration:none;
+      text-decoration-color: rgb(191, 192, 111);
+      text-align: center;
+      
+  }
+  
+   h4{
+      
+      color:gold;
+      padding: 1rem;
+      font-weight: 140;
+      font-size: 1rem;
+      margin: 0rem;
+      text-decoration:underline;
+      text-decoration-color: white;
+  }
+  form{
+    color: white;
+      padding: 0.5rem;
+      border-radius: 3rem;
+      background: #616120;
+    
+      
+  }
+  
+  button,input,.name, .dob{
+      padding: 0.5rem;
+      border-radius: 1rem;
+      margin: 4px;
+      color: white;
+  
+  }
+  
+  label{
+      padding: 0.5rem;
+      font-weight: 50;
+      font-size: small;
+  
+  }
+  select{
+      border-radius: 1rem;
+      padding: 0.2rem;
+  }
+ 
+
+}
